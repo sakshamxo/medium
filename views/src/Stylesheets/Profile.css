@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.min{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.navv{
+    width: 100vmax;
+    height: 4vmax;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(188, 188, 188, 0.34);
+}
+.lig svg{
+    width: 5vmax;
+    height: 1.8vmax;
+    fill: rgb(40, 39, 39);
+}
+.lig{
+    width: 21vmax;
+    height: 4vmax;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lig input{
+    width: 15vmax;
+    height: 2.5vmax;
+    border-radius: 20px;
+    padding: 10px 10px 10px 40px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1' viewBox='0 0 22 22' %3E%3Cpath d='M14.92 14.07l6.04 6.04c.23.24.23.62 0 .86-.24.23-.62.23-.85 0l-6.03-6.04C12.57 16.22 10.63 17 8.5 17 3.8 17 0 13.2 0 8.5S3.8 0 8.5 0 17 3.8 17 8.5c0 2.13-.78 4.08-2.08 5.57zM8.5 16c4.14 0 7.5-3.36 7.5-7.5C16 4.36 12.64 1 8.5 1 4.36 1 1 4.36 1 8.5 1 12.64 4.36 16 8.5 16z' fill='grey' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 1.5vmax;
+    border: none;
+    background-color: rgba(220, 220, 220, 0.178);
+    font-family: 'gilroy';
+    font-size: .9vmax;
+    font-weight: 600;
+    outline: none;
+}
+.wri{
+    width: 16vmax;
+    height: 4vmax;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .5vmax;
+}
+.writ{
+    width: 4vmax;
+    height: 4vmax;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(175, 175, 175);
+    
+}
+.writ a{
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+.writ i{
+    font-size: 1.5vmax;
+}
+.cirp{
+    width: 2vmax;
+    height: 2vmax;
+    background-color: aquamarine;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+.cirp img{
+    width: 120%;
+    height: 100%;
+}
+.writ:nth-child(3) a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profi{
+    width: 100vmax;
+    height: 100vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+.profe{
+    width: 65vmax;
+    height: 95vmax;
+
+    border-right: 1px solid rgba(188, 188, 188, 0.34);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.profie{
+    width: 35vmax;
+    height: 95vmax;
+   
+    padding: 3vmax 2vmax;
+}
+.nnam{
+    width: 50vmax;
+    height: 6vmax;
+   
+    margin-top: 4vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vmax;
+}
+.men{
+    width: 50vmax;
+    height: 3vmax;
+   
+    margin-top: 3vmax;
+    display: flex;
+   
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.readd{
+    width: 50vmax;
+    height: 13vmax;
+   
+    margin-top: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(188, 188, 188, 0.34);
+}
+.nnam h1{
+    font-size: 2.5vmax;
+}
+.nnam button{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1.5vmax;
+    text-align: center;
+    color: rgb(187, 187, 187);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .2s;
+}
+.men .line{
+    width: 50vmax;
+    height: .1vmax;
+    background-color:rgba(188, 188, 188, 0.34) ;
+}
+.men .homi{
+    width: 8vmax;
+    height: 2vmax;
+    /* background-color: rgb(54, 135, 205); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.homi button{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1vmax;
+    color: rgba(172, 172, 172, 0.742);
+}
+.nnam button:hover{
+    color: #222;
+}
+.readd .titr{
+    width: 30vmax;
+    height: 13vmax;
+    background-color: rgba(194, 194, 194, 0.229);
+    padding: 2vmax 2vmax;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.titr h1{
+    font-size: 1.6vmax;
+}
+.titr h6{
+    font-size: .8vmax;
+    font-weight: 500;
+    color: rgba(146, 145, 145, 0.862);
+}
+.readd .imgbox{
+    width: 20vmax;
+    height: 13vmax;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgbox .imag{
+    width: 10vmax;
+    height: 13vmax;
+   
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+.imag img{
+    width: 100%;
+    height: 100%;
+}
+.imgbox .imgg{
+    width: 5.6vmax;
+    height: 13vmax;
+   
+    object-fit: fill;
+    object-position: center;
+    overflow: hidden;
+}
+.imgg img{
+    width: 150%;
+    height: 100%;
+}
+.imgbox .imgi{
+    width: 4.2vmax;
+    height: 13vmax;
+    background-color: blue;
+    object-fit: fill;
+    object-position: center;
+    overflow: hidden;
+}
+.imgi img{
+    width: 200%;
+    height: 100%;
+}
+.profie .acse{
+    width: 25vmax;
+    height: 4vmax;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acse button{
+    width: 23vmax;
+    height: 3vmax;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #222;
+    color: #fff;
+    font-size: 1vmax;
+}
+.profie .propi{
+    width: 10vmax;
+    height: 11vmax;
+   
+    margin-top: 1vmax;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+.propi .prope{
+    width: 6vmax;
+    height: 6vmax;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    margin-left: 2vmax;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    
+}
+.prope img{
+    width: 100%;
+    height: 100%;
+}
+.propi h3{
+    font-weight: 600;
+    margin-left: .5vmax;
+}
+.propi a{
+    text-decoration: none;
+    color: green;
+    font-size: .8vmax;
+    margin-left: .5vmax;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+.propi a:hover{
+    color: #222 ;
+}

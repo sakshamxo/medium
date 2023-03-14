@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.signin{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.signbo{
+    width: 100vmax;
+    height: 101vmax;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+}
+.signbox{
+    width: 70vmax;
+    height: 100vmax;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+.sidenav{
+    width: 30vmax;
+    height: 100vmax;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-top: 2vmax;
+    border-left: 1px solid #aaa;
+}
+.newsnav{
+    width: 25vmax;
+    height: 21vmax;
+    margin-bottom: 2vmax;
+  
+}
+.writenav{
+    width: 20vmax;
+    height: 15vmax;
+    background-color: #E1F0FF;
+    border-radius: 10px;
+    margin-bottom: 2vmax;
+}
+
+.follownav{
+    width: 23vmax;
+    height: 24vmax;
+ 
+}
+.recentnav{
+    width: 23vmax;
+    height: 20vmax;
+    
+}
+.newsnav .head{
+    width: 24vmax;
+    height: 2vmax;
+    margin-left: 1vmax;
+   
+}
+.head h3{
+    font-size: 1.1vmax;
+}
+.newsmid{
+    width: 23vmax;
+    height: 7vmax;
+    margin-top: .5vmax;
+    margin-left: .5vmax;
+   
+}
+.newsmid img{
+    width: 3.5vmax;
+    height: 3vmax;
+    border-radius: 20px;
+}
+.newsmid h1{
+    font-size: .8vmax;
+}
+.newsmid p{
+    font-size: .5vmax;
+}
+.newslist{
+    width: 9vmax;
+    height: 1.5vmax;
+    margin-top: 1vmax;
+    margin-left: 1vmax;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heaad{
+    width: 15vmax;
+    height: 2vmax;
+    margin-top: .5vmax;
+    margin-left: 2vmax;
+ 
+}
+.heaad h3{
+    font-size: 1.5vmax;
+}
+.linkbox{
+    width: 16vmax;
+    height: 8vmax;
+    margin-left: 2vmax;
+    margin-top: .5vmax;
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.linkbox a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1vmax;
+    font-weight: 600;
+}
+.boxlet{
+    width: 8vmax;
+    height: 2.2vmax;
+    background-color: rgb(26, 26, 26);
+    margin-top: 1vmax;
+    margin-left: 2vmax;
+    border-radius: 20px;
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .2s;
+}
+.boxlet:hover{
+    background: #000;
+}
+.follw{
+    width: 21vmax;
+    height: 6vmax;
+    margin-top: .2vmax;
+}
+.newfe{
+    width: 9vmax;
+    height: 2vmax;
+    margin-top: .3vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newfe a{
+    color: green;
+    text-decoration: none;
+    font-size: .8vmax;
+}
+.rece{
+    width: 23vmax;
+    height: 6vmax;
+ 
+    margin-top: 1vmax;
+}
+.sigbox{
+    width: 60vmax;
+    height: 18vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vmax;
+    
+}
+.neshead{
+    width: 20vmax;
+    height: 1.5vmax;
+    font-size: 1vmax;
+    margin-left: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.neshead img{
+    width: 3vmax;
+    height: 3vmax;
+}
+.dp{
+    width: 1.5vmax;
+    height: 1.5vmax;
+
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+.dp img{
+    width: 100%;
+    height: 100%;
+}
+.dpname{
+    width: 18vmax;
+    height: 1vmax;
+
+}
+.dpname a{
+    text-decoration: none;
+    color: black;
+}
+.dpname a h5{
+    font-size: .9vmax;
+}
+.headline{
+    width: 21vmax;
+    height: 2.5vmax;
+  
+    margin-left: 1vmax;
+    margin-top: .3vmax;
+}
+.headline a{
+    text-decoration: none;
+    color: #000;
+}
+.headline h3{
+    font-size: 1vmax;
+    font-weight: 600;
+}
+.newslist a{
+    color: green;
+    text-decoration: none;
+  
+}
+.newslist h6{
+    font-weight: 400;
+}
+.sigbox .nee{
+    width: 60vmax;
+    height: 18vmax;
+
+ 
+}
+
+.nee .prof{
+    width: 30vmax;
+    height: 3vmax;
+
+   display: flex;
+   align-items: center;
+  padding: 0 1vmax;
+
+}
+
+.prof .pico{
+    width: 35px;
+    height: 35px;
+  
+    border-radius: 50%;
+    margin-right: 1vmax;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+.pico img{
+    width: 100%;
+    height: 100%;
+}
+.prof h5{
+    font-weight: 500;
+    font-size: 1vmax;
+}
+.nee .nem{
+    width: 60vmax;
+    height: 12vmax;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nem .neww{
+    width: 35vmax;
+    height: 10vmax;
+ 
+   
+}
+.neww h2{
+    margin-left: .5vmax;
+    margin-top: .5vmax;
+}
+.neww p{
+    font-size: .8vmax;
+    margin-left: .5vmax;
+    margin-top: 1vmax;
+}
+.neww .rea{
+    width: 35vmax;
+    height: 1.5vmax;
+
+    margin-top: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rea .reaa{
+    width: 18vmax;
+    height: 1.5vmax;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .5vmax;
+}
+.reaa h5{
+    font-size: .9vmax;
+    font-weight: 500;
+    color: rgb(170, 170, 170);
+}
+.reaa .topi{
+    width: 7vmax;
+    height: 1.5vmax;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topi h6{
+    color: rgb(91, 91, 91);
+    font-size: .8vmax;
+    font-weight: 600;
+}
+.rea i{
+    font-size: 1.5vmax;
+    margin-right: .5vmax;
+    font-weight: 400;
+}
+.nem .back{
+    width: 8vmax;
+    height: 8vmax;
+ 
+    object-fit:cover ;
+    object-position: center;
+    overflow: hidden;
+
+}
+.back img{
+    width: 100%;
+    height: 100%;
+}

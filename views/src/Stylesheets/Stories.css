@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    html,body{
+    width: 100%;
+    height: 100%;
+    }
+    .stories{
+        width: 100%;
+        height: 100vmax;
+    
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .lstory{
+        width: 70vmax;
+        height: 30vmax;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .stitle{
+        width: 50vmax;
+        height: 7vmax;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 1vmax;
+    }
+    .stitle h1{
+        width: 20vmax;
+        font-size: 3vmax;
+    }
+    .sbutton{
+        width: 30vmax;
+        height: 7vmax;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .sbutton button{
+        width: 8vmax;
+        height: 3vmax;
+        background-color: green;
+        border-radius: 25px;
+        border: none;
+        font-size: 1vmax;
+        color: #fff;
+    }
+    
+    .stitmen{
+        width: 50vmax;
+        height: 4vmax;
+        border-bottom: 1px solid #bcbcbc;
+    }
+    .smenu{
+        width: 17vmax;
+        height: 4vmax;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .smenu a{
+        font-size: 1vmax;
+        text-decoration: none;
+        color: #515151;
+    }
+    
+    .sinfo{
+        width: 50vmax;
+        height: 14vmax;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rstory{
+        width: 30vmax;
+        height: 100vmax;
+        border-left: 1px solid #bcbcbc;
+    }
+    

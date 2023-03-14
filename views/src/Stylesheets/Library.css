@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    html,body{
+    width: 100%;
+    height: 100%;
+    }
+    .library{
+        width: 100vmax;
+        height: 100vmax;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    .lib{
+        width: 70vmax;
+        height: 60vmax;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /* .rlib{
+        width: 30vmax;
+        height: 100vmax;
+        padding: 1vmax 0;
+        border-left: 1px solid #bcbcbc;
+    } */
+
+    .libtit{
+        width: 50vmax;
+        height: 7vmax;
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vmax;
+        margin-top: 3vmax;
+    }
+    .libtit h1{
+        font-size: 3vmax;
+    }
+    .libtit button{
+        width: 7vmax;
+        height: 3vmax;
+        border-radius: 25px;
+        color: #fff;
+        border: none;
+        font-size: 1vmax;
+        background-color: green;
+    }
+    .libpop{
+        width: 50vmax;
+        height: 15vmax;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .libnav{
+        width: 50vmax;
+        height: 4vmax;
+        border-bottom: 1px solid #bcbcbc;
+    }
+    .navme{
+        width: 19vmax;
+        height: 4vmax;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .navme a{
+    text-decoration: none;
+    color: #838383;
+    }
+    
+    .navme a:hover{
+        color: #121212;
+    }
+    .popti{
+        width: 22vmax;
+        height: 15vmax;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 1.5vmax;
+    }
+    .popti h2{
+        width: 18vmax;
+        font-size: 1.4vmax;
+        color: #fff;
+        font-weight: 600;
+    }
+    .popti button{
+        width: 8vmax;
+        height: 3vmax;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        font-size: 1.1vmax;
+        background: #000;
+        color: #fff;
+    }
+    .popill{
+        width: 28vmax;
+        height: 15vmax;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popici{
+        width: 20vmax;
+        height: 20vmax;
+        background-color: rgba(250, 250, 250, 0.278);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popcir{
+        width: 5vmax;
+        height: 5vmax;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popcir i{
+        color: green;
+        font-size: 2vmax;
+        font-weight: 200;
+    }
+    .readd{
+        width: 50vmax;
+        height: 13vmax;
+       
+        margin-top: 2vmax;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        overflow: hidden;
+        border: 1px solid rgba(188, 188, 188, 0.34);
+    }
+    .readd .titr{
+        width: 30vmax;
+        height: 13vmax;
+        background-color: rgba(194, 194, 194, 0.229);
+        padding: 2vmax 2vmax;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .titr h1{
+        font-size: 1.6vmax;
+    }
+    .titr h6{
+        font-size: .8vmax;
+        font-weight: 500;
+        color: rgba(146, 145, 145, 0.862);
+    }
+    .readd .imgbox{
+        width: 20vmax;
+        height: 13vmax;
+     
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .imgbox .imag{
+        width: 10vmax;
+        height: 13vmax;
+       
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+    }
+    .imag img{
+        width: 100%;
+        height: 100%;
+    }
+    .imgbox .imgg{
+        width: 5.6vmax;
+        height: 13vmax;
+       
+        object-fit: fill;
+        object-position: center;
+        overflow: hidden;
+    }
+    .imgg img{
+        width: 150%;
+        height: 100%;
+    }
+    .imgbox .imgi{
+        width: 4.2vmax;
+        height: 13vmax;
+        object-fit: fill;
+        object-position: center;
+        overflow: hidden;
+    }
+    .imgi img{
+        width: 200%;
+        height: 100%;
+    }
+    
+    .libred{
+        width: 50vmax;
+        height: 13vmax;
+    }
